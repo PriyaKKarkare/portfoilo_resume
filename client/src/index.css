@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #F5F6FA;
+  color: #10152B;
+}
+
+.navlink {
+  position: relative;
+}
+.navlink::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  height: 2px;
+  width: 0%;
+  background: #3454D1;
+  transition: width 0.25s ease;
+}
+.navlink:hover::after {
+  width: 100%;
+}
+
+.chip {
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+.chip:hover {
+  transform: translateY(-2px);
+  border-color: #3454D1;
+  box-shadow: 0 6px 16px rgba(52, 84, 209, 0.15);
+}
+
+.card-hover {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.card-hover:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 16px 32px rgba(16, 21, 43, 0.08);
+}
+
+::selection {
+  background: #14B892;
+  color: white;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none !important;
+    animation: none !important;
+  }
+}
