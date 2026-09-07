@@ -86,6 +86,7 @@ export const PROJECTS = [
 export const PROJECT_LINKS = [
   { name: "RMS Portal", url: "https://test-repository-black-seven.vercel.app/" },
   { name: "Online prescription platform", url: "https://doctor-consultation-system-dw3n.vercel.app/" },
+  { name: "Authentication System", url: "https://authenticationsystem-seven.vercel.app/" },
   { name: "Jewelry E-commerce", url: "https://jewel-website.vercel.app/" },
   { name: "PhotoStudio website", url: "https://curd-work-gold.vercel.app/" },
   { name: "Food Delivery", url: "https://fooddelivery-k2v0uzdkf-priyas-projects-46ef61df.vercel.app/" },
