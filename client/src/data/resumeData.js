@@ -88,6 +88,7 @@ export const PROJECT_LINKS = [
   { name: "Online prescription platform", url: "https://doctor-consultation-system-dw3n.vercel.app/" },
   { name: "Authentication System", url: "https://authenticationsystem-seven.vercel.app/" },
   { name: "Blogging Platform", url: "https://blogging-platform-eight-eta.vercel.app/" },
+  { name: "Project management tool", url: "https://project-management-tool-neon-two.vercel.app/" },
   { name: "Jewelry E-commerce", url: "https://jewel-website.vercel.app/" },
   { name: "PhotoStudio website", url: "https://curd-work-gold.vercel.app/" },
   { name: "Food Delivery", url: "https://fooddelivery-k2v0uzdkf-priyas-projects-46ef61df.vercel.app/" },
