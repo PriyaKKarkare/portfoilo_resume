@@ -84,7 +84,7 @@ export const PROJECTS = [
 ];
 
 export const PROJECT_LINKS = [
-  { name: "RMS Portal", url: "https://test-repository-black-seven.vercel.app/" },
+
   { name: "Online prescription platform", url: "https://doctor-consultation-system-dw3n.vercel.app/" },
   { name: "Authentication System", url: "https://authenticationsystem-seven.vercel.app/" },
   { name: "Blogging Platform", url: "https://blogging-platform-eight-eta.vercel.app/" },
@@ -93,6 +93,7 @@ export const PROJECT_LINKS = [
   { name: "PhotoStudio website", url: "https://curd-work-gold.vercel.app/" },
   { name: "Food Delivery", url: "https://fooddelivery-k2v0uzdkf-priyas-projects-46ef61df.vercel.app/" },
   { name: "Movie Maniac", url: "https://moviemaniac-919jjuctl-priyas-projects-46ef61df.vercel.app/" },
+  { name: "RMS Portal", url: "https://test-repository-black-seven.vercel.app/" },
 ];
 
 export const EDUCATION = [
